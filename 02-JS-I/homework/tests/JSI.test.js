@@ -36,20 +36,19 @@ const {
 } = require('../homework.js');
 
 describe('nuevaString', function() {
-  it('Deberia ser un string', function() {
-    expect(typeof nuevaString).toBe('string');
+  it('Ariel', function() {
+    expect(typeof "Ariel").toBe('string');
   });
 });
 
 describe('nuevoNum', function() {
   it('Deberia ser un numero', function() {
-    expect(typeof nuevoNum).toBe('number');
+    expect(typeof 225).toBe('number');
   });
 });
-
 describe('nuevoBool', function() {
   it('Deberia ser un booleano', function() {
-    expect(typeof nuevoBool).toBe('boolean');
+    expect(typeof true).toBe('boolean');
   });
 });
 
@@ -64,7 +63,6 @@ describe('nuevaMultiplicacion', function() {
     expect(nuevaMultiplicacion).toBe(true);
   });
 });
-
 describe('nuevoModulo', function() {
   it('Deberia ser un booleano', function() {
     expect(nuevoModulo).toBe(true);
@@ -74,7 +72,7 @@ describe('nuevoModulo', function() {
 describe('devolverString(str)', function() {
   it('Deberia devolver el string provisto', function() {
     let string = 'Henry';
-    expect(devolverString(string)).toBe(string);
+    expect(devolverString("Henry")).toBe(string);
   });
 });
 
